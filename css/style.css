@@ -1,88 +1,118 @@
 /* font-family: 'Roboto', sans-serif; */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 ul>li {
     list-style: none;
 }
 
-li {
-    list-style: none;
+a {
+    text-decoration: none;
 }
 
-.wrapper {
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
     max-width: 100%;
 }
 
 .header {
-    height: 91px;
+    background-color: #1c1c1c;
     border-bottom: 2px solid white;
+    padding: 16px 0px 4px;
 }
 
-.container {}
+.container {
+    width: 1130px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
 
 .header__container {
-    padding: 0 40px;
+    min-width: 1370px;
     display: flex;
+    column-gap: 30px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
-    padding-top: 10px;
+    max-width: 187px;
+    min-width: 81px;
 }
 
-.logo__link {}
-
-.logo__img {}
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 .header__nav-list {
     display: flex;
-    padding-top: 48px;
-}
-
-.header__item {
-    margin-right: 38px;
-}
-
-.header__item:last-child {
-    margin-right: 0px;
+    column-gap: 34px;
 }
 
 .header__link {
-    font-family: 'Arial';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: white;
 }
 
-.contacts {
+.header__contacts {
     display: flex;
-    padding-top: 48px;
+    column-gap: 52px;
 }
 
 .location {
     display: flex;
-    margin-right: 53px;
-}
-
-.location__img {
-    width: 15px;
-    height: 15px;
-}
-
-.location__addres {
-    font-family: 'Arial';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: white;
 }
 
-.phone {}
+.location::before {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url(../img/icons/location.svg) no-repeat center/contain;
+}
 
 .tel {
-    font-family: 'Arial';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -91,8 +121,32 @@ li {
 
 .main {}
 
-.hero {}
+.hero {
+    background-color: #1c1c1c;
+}
+
+.container {}
 
 .hero__main {}
 
-.hero__advantages {}
+.title {}
+
+.hero__subtitle {}
+
+.hero__btns {}
+
+.btn {}
+
+.hero__call-to-action {}
+
+.advantages {}
+
+.advantage {}
+
+.hero__advantage {}
+
+.advantage_theme_transparent {}
+
+.advantage__img {}
+
+.advantage__desc {}
