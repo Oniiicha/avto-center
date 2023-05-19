@@ -628,6 +628,111 @@ img {
     transition: opacity 0.3s;
 }
 
+.form__section {
+    padding: 77px 0px 90px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg/form-bg.png) no-repeat center/cover;
+}
+
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 62px;
+    width: 870px;
+    height: 99px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+}
+
+.file__form {}
+
+.form__text {
+    width: 286px;
+    height: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.file__btn {
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 4px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 17px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name__form {
+    border: none;
+    border-radius: 4px;
+    width: 360px;
+    height: 44px;
+}
+
+input::placeholder {
+    padding-left: 17px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #D4D4D4;
+}
+
+
+.tel__form {
+    border: none;
+    border-radius: 4px;
+    width: 360px;
+    height: 44px;
+}
+
+.call__form {
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 360px;
+    height: 44px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 @media (max-width: 960px) {
     .header__logo {
         max-width: 181px;
